@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <link rel="stylesheet" href="registration.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+
+<body>
+    <form action="">
+        <div class="Input firstName">
+            First name: <span id="warn_firstname" style="display: grid; float: right; font-size: xx-small;"></span><br>
+            <input type="text" name="firstName" id="first_name" onkeyup="show_first_len()" onblur="lostfocus()" autocomplete="off">
+        </div>
+        <div class="Input sirName">
+            Sir name: <span id="warn_sirname" style="display: grid; float: right; font-size: xx-small;"></span><br>
+            <input type="text" name="sirName" id="sir_name" onkeyup="show_sir_len()" onblur="sir_lostfocus()" autocomplete="off">
+        </div>
+
+    </form>
+
+    <script type="text/Javascript" src="registration.js"></script>
+</body>
+</html>

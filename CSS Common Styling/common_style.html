@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="common_style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Common Style CSS</title>
+</head>
+<body>
+    <div class="Form Input">
+        
+        <div class="Input">
+            First name: <span id="warn_firstname" style="float: right; font-size: xx-small;"></span> <br>
+            <input type="text" name="" autocomplete="off" id="first_name" onkeyup="typeFirst_name()" onblur="leaveFirst_name()" autofocus>
+        </div>
+
+        <div class="Input"> 
+            Sir name: <span id="warn_sirname" style="float: right; font-size: xx-small;"></span> <br>
+            <input type="text" name="" autocomplete="off" id="sir_name" onkeyup="typeSir_name()" onblur="leaveSir_name()">
+        </div>
+
+        <div class="Input">
+            E-mail: <span></span>
+            <input type="email" name="" autocomplete="off" id="email">
+        </div>
+
+        <div class="Input">
+            Phone Number: <span id="warn_phone" style="float: right; font-size: xx-small;"></span> <br>
+            <input type="text" name="" autocomplete="off" id="phone" onkeyup="typePhone()" onblur="leavePhone()">
+        </div>
+
+        <div class="Input">
+            username: <span id="warn_username" style="float: right; font-size: xx-small;"></span> <br>
+            <input type="text" name="" autocomplete="off" id="username" onkeyup="typeUsername()" onblur="leaveUsername()">
+        </div>
+
+        <div class="Input">
+            Password: <span id="warn_pass" style="float: right; font-size: xx-small;"></span> <br>
+            <input type="password" name="" id="pass" onkeyup="typePassword()" onblur="leavePassword()">
+        </div>
+
+        <div class="Input">
+            Confirm Password: <span id="warn_cpass" style="float: right; font-size: xx-small;"></span> <br>
+            <input type="password" name="" id="cPass" onblur="leavecPassword()">
+        </div>
+
+        <div class="Input button">
+            <button>Submit</button>
+        </div>
+    </div>
+    <script type="text/Javascript" src="common_style.js"></script>
+</body>
+</html>

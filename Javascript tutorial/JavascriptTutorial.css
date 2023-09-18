@@ -1,0 +1,18 @@
+body{
+    display: block;
+    text-align: center;
+    font-size: xx-large;
+    background-color: antiquewhite;
+}
+
+#txtGuessNumber{
+    padding: auto;
+    font-family: Verdana;
+    border: none;
+    text-align: center;
+}
+
+#txtGuessNumber:focus{
+    outline: none;
+    background-color: rgb(225, 255, 245);
+}
